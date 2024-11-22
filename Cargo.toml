@@ -15,6 +15,7 @@ categories = ["game-development"]
 [dependencies]
 itertools = "0.13"
 tracing = { version = "0.1", optional = true }
+bevy_rapier2d = "*"
 
 [dependencies.avian2d]
 version = "0.1"

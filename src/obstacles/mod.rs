@@ -13,6 +13,7 @@ pub(crate) mod avian2d;
 pub(crate) mod avian3d;
 pub(crate) mod cached;
 pub(crate) mod primitive;
+pub(crate) mod rapier2d;
 
 /// Trait to mark a component as the source of position and shape of an obstacle.
 pub trait ObstacleSource: Component + Clone {
